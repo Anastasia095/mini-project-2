@@ -1,0 +1,111 @@
+:root {
+    --FontColor: #E867ED;
+}
+
+header {
+text-align: center;
+/* width: 100%; */
+/* For three values the order is: top, (left and right), bottom. 
+For fourvalues the order is: top, right, bottom, left (clockwise).  */
+margin: 15px, 150px, 15px;
+}
+
+h1 {
+    /* padding: 15px; */
+    font-weight: bold;
+    /* font-size: */
+    letter-spacing: -1px;
+}
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+body{
+
+    background-color: #333940;
+    font-family: sans-serif;
+    /* margin: 5% 20% 5%; */
+    /* width: 70% */
+}
+
+.font-color {
+    color: var(--FontColor);
+}
+
+.p-font-color{
+    color: white;
+}
+
+section {
+    /* border: 1.75px solid rgb(40, 231, 7); */
+    flex: 1 2 28%;
+    float: left;
+    margin: 1%;
+}
+
+.code-box {
+    border: 1.75px dashed white;
+    color: var(--FontColor);
+    position: relative;
+    padding: 10px;
+}
+
+.code-box:hover {
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+    }
+.box-header {
+    position: relative;
+    top: -20px;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(49, 50, 62);
+    /* font: 20px bold; */
+    /* line-height: 20px; */
+}
+
+.h3-margin {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+pre {
+    /* border: dashed 1px; */
+    /* height: auto; */
+    border-radius: 7px;
+    background: rgb(2,0,36);
+    background: linear-gradient(#6B4975,#9F55A6)
+}
+
+code {
+    display: flex;
+    color: white;
+    -webkit-user-select: all;
+    user-select: all;
+    /* text-align: left; */
+}
+
+
+
+main {
+    background-color: rgb(3, 73, 73);
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 80%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
